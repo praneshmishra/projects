@@ -1,0 +1,55 @@
+,Model,Model_Name,Train_Test,MAPE,RMSE,R2,Adj. R2,Features_used
+0,<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x0000020B8001C2C8>,<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x0000020B8001C2C8>,TRAIN,0.5099875640060416,284.6116477553798,0.27815019254902573,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x0000020B8001C2C8>,<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x0000020B8001C2C8>,TEST,0.4684329972047031,282.80309264221347,0.27815019254902573,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=8,
+                      max_features=5, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, n_estimators=80,
+                      n_jobs=None, oob_score=False, random_state=None,
+                      verbose=0, warm_start=False)",RandomForestRegressor,TRAIN,0.4484156956053642,259.8242951307057,0.3655337908102446,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=8,
+                      max_features=5, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, n_estimators=80,
+                      n_jobs=None, oob_score=False, random_state=None,
+                      verbose=0, warm_start=False)",RandomForestRegressor,TEST,0.4656625624025201,277.9336593639607,0.2191584833848229,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,"XGBRegressor(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+             colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+             importance_type='gain', interaction_constraints='',
+             learning_rate=0.03, max_delta_step=0, max_depth=3,
+             min_child_weight=1, missing=nan, monotone_constraints='()',
+             n_estimators=450, n_jobs=0, num_parallel_tree=1,
+             objective='reg:squarederror', random_state=0, reg_alpha=0,
+             reg_lambda=1, scale_pos_weight=1, subsample=1, tree_method='exact',
+             validate_parameters=1, verbosity=None)",XGBRegressor,TRAIN,0.468782822866644,264.38578058167303,0.3430608121332147,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,"XGBRegressor(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+             colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+             importance_type='gain', interaction_constraints='',
+             learning_rate=0.03, max_delta_step=0, max_depth=3,
+             min_child_weight=1, missing=nan, monotone_constraints='()',
+             n_estimators=450, n_jobs=0, num_parallel_tree=1,
+             objective='reg:squarederror', random_state=0, reg_alpha=0,
+             reg_lambda=1, scale_pos_weight=1, subsample=1, tree_method='exact',
+             validate_parameters=1, verbosity=None)",XGBRegressor,TEST,0.4639555356047787,274.48262417811407,0.2384291378495753,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,"SVR(C=7, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=0.002,
+    kernel='rbf', max_iter=-1, shrinking=True, tol=0.001, verbose=False)",SVR,TRAIN,0.5045993985029142,275.89332035047414,0.2846289624226326,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,"SVR(C=7, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=0.002,
+    kernel='rbf', max_iter=-1, shrinking=True, tol=0.001, verbose=False)",SVR,TEST,0.48311277453499224,283.32186006384654,0.1885892185701521,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=8,
+                      max_features=7, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, n_estimators=70,
+                      n_jobs=None, oob_score=False, random_state=None,
+                      verbose=0, warm_start=False)",RandomForestRegressor,TRAIN,0.4422363197279174,254.555633992705,0.3910040440498549,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=8,
+                      max_features=7, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, n_estimators=70,
+                      n_jobs=None, oob_score=False, random_state=None,
+                      verbose=0, warm_start=False)",RandomForestRegressor,TEST,0.47053741352132156,277.22413350733933,0.22314015347182148,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,"DummyRegressor(constant=None, quantile=None, strategy='mean')",DummyRegressor,TRAIN,0.6229106299866215,338.47343349587527,-0.07670853436945957,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
+0,"DummyRegressor(constant=None, quantile=None, strategy='mean')",DummyRegressor,TEST,0.5511138496006741,329.75881544173416,-0.09919168387399169,NA,"['reason_2', 'income', 'card_3', 'card_5', 'card_4', 'card_2', 'card2_3', 'card2_2', 'reason_9', 'gender_1', 'card2_5', 'jobcat_6', 'jobcat_4']"
